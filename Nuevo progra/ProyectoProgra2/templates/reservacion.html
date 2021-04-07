@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label for="fecha">Fecha del viaje</label>
+        <input type="date" id="fecha" name="fecha">
+        <br><br>
+    
+    </div> 
+    <label for="Pasajeros">Ingrese el numero de pasajeros:</label>
+
+    <select id="pasajeros">
+      <option value="1-4">1-4</option>
+      <option value="5-9">5-9</option>
+      <option value="10-14">10-14</option>
+      <option value="15-20">15-20</option>
+    </select>
+    <br><br>
+    <label for="destino">Lugar de destino</label>
+        <input type="text" id="destino" name="destino" placeholder="destino">
+        <br><br>    
+    <button onclick="reservaciones()">send</button>
+        <br><br>
+        <button onclick="tablita()">table</button>  
+        <script src="/ProyectoProgra2/static/reservacion_script.js"></script>
+</body>
+</html>
